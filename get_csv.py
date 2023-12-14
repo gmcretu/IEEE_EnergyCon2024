@@ -20,6 +20,7 @@ def get_csv(nr_sensors, list_nameH, outDir):
             for idx, line in enumerate(lines):
                 if idx != 0:
                     #line[0] = datetime.strptime(line[0], '%Y-%m-%d %H:%M:%S')
+                    #Data Cleaning
                     if '' in line:
                         if last_line != 0:
                             line = last_line
