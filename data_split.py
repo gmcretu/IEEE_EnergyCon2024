@@ -110,8 +110,8 @@ def split(name, l, h, seed, dir):
 
 if __name__ == "__main__":
   seed = 10
-  l = 4.0
-  h = 8.0
+  l = 1.0
+  h = 4.0
   step = 2
   seq_length = 60
   occ_length = 60
